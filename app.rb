@@ -1,30 +1,36 @@
 require 'sinatra'
 set :session_secret, 'here be dragons'
-
+set :bind, '0.0.0.0'
+set :port, 4568
 get '/' do
-  'hello!'
+  erb :index
 end
 
 get '/secret' do
   'this is a secret page'
 end
 
-get '/hello/:name' do
+get '/hello/:name/:surname' do
   # matches "GET /hello/foo" and "GET /hello/bar"
   # params['name'] is 'foo' or 'bar'
-  "Hello #{params['name']}!"
+  "Hello #{params['name']}  #{params[:surname]}!"
 end
 
-get '/brilliant/:name' do |n|
-  # matches "GET /hello/foo" and "GET /hello/bar"
-  # params['name'] is 'foo' or 'bar'
-  # n stores params['name']
-  "Bang! Bang! &#9889  #{n}, you are brilliant!!"
+get'/brilliant-form' do
+  p params
+  @name = params[:name]
+  erb :brilliant_form
+end
+
+post '/brilliant' do
+  p params
+  @name = params[:name]
+  erb :brilliant_result
 end
 
 get '/say/*/to/*' do
   # matches /say/hello/to/world
-  params['splat'] # => ["hello", "world"]
+  params['splat'][0] + ' ' + params['splat'][1] + '!' # => ["hello", "world"]
 end
 
 get '/download/*.*' do
@@ -32,15 +38,25 @@ get '/download/*.*' do
   params['splat'] # => ["path/to/file", "xml"]
 end
 
-get'/Rocky' do
-  "<style>
-    #rocky {
-    border: 3px dotted blue;
-    padding: 30px;
-    border-radius: 70px
-    }
-  </style>
-  <div id=rocky>
-   '<a href=https://imgur.com/tXiCbLu><img height=500 src=https://i.imgur.com/tXiCbLu.png title=source: imgur.com /></a>'
-  </div>"
+get'/random-rocky' do
+  @name = %w[Rocky Topolone Cuddly].sample
+  erb :rocky_result
+end
+
+get'/rocky-form' do
+  p params
+  @name = params[:name]
+  @colour = params[:colour]
+  erb :rocky_form
+end
+
+post '/named-rocky' do
+  p params
+  @name = params[:name]
+  @colour = params[:colour]
+  erb :rocky_result
+end
+
+get '/whatsup' do
+  'Whats up ' + params[:name] + ' ' + params[:surname]
 end
