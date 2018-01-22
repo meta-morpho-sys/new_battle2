@@ -8,6 +8,16 @@ class Battle < Sinatra::Base
     erb :index
   end
 
+  get '/new_player_form' do
+    erb :new_player_form
+  end
+
+  post '/players' do
+    p params
+    @player1 = params[:monster_name1]
+    @player2 = params[:monster_name2]
+    erb :players
+  end
+
   run! if app_file == $PROGRAM_NAME
 end
-
