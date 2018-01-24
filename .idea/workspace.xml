@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412f2c06-1583-4e27-9644-b8460a6a49fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/features/players_form_spec.rb" afterPath="$PROJECT_DIR$/spec/features/players_form_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/views/new_player_form.erb" afterPath="$PROJECT_DIR$/views/new_player_form.erb" />
-      <change beforePath="$PROJECT_DIR$/views/players.erb" afterPath="$PROJECT_DIR$/views/play.erb" />
+      <change beforePath="$PROJECT_DIR$/views/play.erb" afterPath="$PROJECT_DIR$/views/play.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +18,9 @@
     <SUITE FILE_PATH="coverage/new_battle@Testing_homepage_it_redirects_you_to_a_page_where_you_can_subscribe__new_battle.coverage" NAME="Testing homepage it redirects you to a page where you can subscribe: new-battle Coverage Results" MODIFIED="1516660200710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@spec_helper.coverage" NAME="spec_helper Coverage Results" MODIFIED="1516644220995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Players_subscribe_for_the_game__new_battle.coverage" NAME="Players subscribe for the game: new-battle Coverage Results" MODIFIED="1516659792778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
-    <SUITE FILE_PATH="coverage/new_battle@All_specs_in_new_battle__new_battle.coverage" NAME="All specs in new-battle: new-battle Coverage Results" MODIFIED="1516740144201" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
-    <SUITE FILE_PATH="coverage/new_battle@Players_subscribe_for_the_game_filling_in_a_form__new_battle.coverage" NAME="Players subscribe for the game filling in a form: new-battle Coverage Results" MODIFIED="1516754935297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle@All_specs_in_new_battle__new_battle.coverage" NAME="All specs in new-battle: new-battle Coverage Results" MODIFIED="1516790952497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle@Run_spec__hit_points_spec___new_battle.coverage" NAME="Run spec 'hit_points_spec': new-battle Coverage Results" MODIFIED="1516791785620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle@Players_subscribe_for_the_game_filling_in_a_form__new_battle.coverage" NAME="Players subscribe for the game filling in a form: new-battle Coverage Results" MODIFIED="1516790910476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@app.coverage" NAME="app Coverage Results" MODIFIED="1516734289969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@test_cb.coverage" NAME="test_cb Coverage Results" MODIFIED="1516578192543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@All_features_in_new_battle__new_battle.coverage" NAME="All features in new-battle: new-battle Coverage Results" MODIFIED="1516660162966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="new-battle" />
@@ -33,28 +31,28 @@
       <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="346">
+              <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testing_infrastructure_spec.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/features/testing_infrastructure_spec.rb">
+      <file leaf-file-name="hit_points_spec.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/hit_points_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="players_form_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/players_form_spec.rb">
+      <file leaf-file-name="play.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/play.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -101,11 +99,12 @@
         <option value="$PROJECT_DIR$/views/new_player_form.erb" />
         <option value="$PROJECT_DIR$/views/monstas.erb" />
         <option value="$PROJECT_DIR$/views/players.erb" />
-        <option value="$PROJECT_DIR$/views/play.erb" />
         <option value="$PROJECT_DIR$/views/index.erb" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/spec/features/players_form_spec.rb" />
+        <option value="$PROJECT_DIR$/app.rb" />
+        <option value="$PROJECT_DIR$/spec/features/hit_points_spec.rb" />
+        <option value="$PROJECT_DIR$/views/play.erb" />
       </list>
     </option>
   </component>
@@ -116,7 +115,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="278" />
+    <option name="x" value="372" />
     <option name="y" value="22" />
     <option name="width" value="1861" />
     <option name="height" value="992" />
@@ -208,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Players subscribe for the game filling in a form: new-battle">
+  <component name="RunManager" selected="RSpec.Run spec 'hit_points_spec': new-battle">
     <configuration name="All specs in new-battle: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
@@ -273,6 +272,38 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
+    <configuration name="Run spec 'hit_points_spec': new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="new-battle" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/hit_points_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
+    </configuration>
     <configuration name="Run spec 'players_form_spec': new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
@@ -305,38 +336,6 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Testing homepage it redirects you to a page where you can subscribe: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
-      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
-      <module name="new-battle" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
-      <envs>
-        <env name="JRUBY_OPTS" value="-X+O" />
-      </envs>
-      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
-      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
-      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
-        <COVERAGE_PATTERN ENABLED="true">
-          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
-        </COVERAGE_PATTERN>
-      </EXTENSION>
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/testing_infrastructure_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Testing homepage it redirects you to a page where you can subscribe" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
-    </configuration>
     <configuration name="app" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
       <module name="new-battle" />
       <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -356,19 +355,19 @@
       <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.Testing homepage it redirects you to a page where you can subscribe: new-battle" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Players subscribe for the game filling in a form: new-battle" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
-      <item index="3" class="java.lang.String" itemvalue="Ruby.app" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'players_form_spec': new-battle" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.Players subscribe for the game filling in a form: new-battle" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
+      <item index="2" class="java.lang.String" itemvalue="Ruby.app" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'players_form_spec': new-battle" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Run spec 'hit_points_spec': new-battle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Players subscribe for the game filling in a form: new-battle" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.Run spec 'players_form_spec': new-battle" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
-        <item index="3" class="java.lang.String" itemvalue="Ruby.app" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Testing homepage it redirects you to a page where you can subscribe: new-battle" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.Run spec 'hit_points_spec': new-battle" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.Players subscribe for the game filling in a form: new-battle" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.Run spec 'players_form_spec': new-battle" />
+        <item index="4" class="java.lang.String" itemvalue="Ruby.app" />
       </list>
     </recent_temporary>
   </component>
@@ -386,44 +385,44 @@
       <workItem from="1516106108747" duration="34424000" />
       <workItem from="1516576264712" duration="696000" />
       <workItem from="1516577359107" duration="26436000" />
-      <workItem from="1516734026365" duration="9827000" />
+      <workItem from="1516734026365" duration="10960000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 39m 59s.xml">
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.01.24 at 10h 48m 44s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.01.24 at 10h 48m 56s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.01.24 at 10h 49m 09s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.01.24 at 10h 49m 16s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
+    </history-entry>
+    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 10h 48m 10s.xml">
       <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 40m 47s.xml">
+    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 10h 48m 35s.xml">
       <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 41m 41s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'hit_points_spec'__new-battle - 2018.01.24 at 10h 57m 13s.xml">
+      <configuration name="Run spec 'hit_points_spec': new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 42m 23s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'hit_points_spec'__new-battle - 2018.01.24 at 11h 00m 47s.xml">
+      <configuration name="Run spec 'hit_points_spec': new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 44m 31s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'hit_points_spec'__new-battle - 2018.01.24 at 11h 02m 07s.xml">
+      <configuration name="Run spec 'hit_points_spec': new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 44m 49s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 46m 26s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 46m 55s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 47m 20s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Players_subscribe_for_the_game_filling_in_a_form__new-battle - 2018.01.24 at 00h 49m 01s.xml">
-      <configuration name="Players subscribe for the game filling in a form: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Run_spec_'hit_points_spec'__new-battle - 2018.01.24 at 11h 03m 11s.xml">
+      <configuration name="Run spec 'hit_points_spec': new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71383000" />
+    <option name="totallyTimeSpent" value="72516000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -435,7 +434,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="278" y="22" width="1861" height="992" extended-state="0" />
+    <frame x="372" y="22" width="1861" height="992" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -444,7 +443,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3983287" sideWeight="0.5071531" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34225196" sideWeight="0.4945992" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35367545" sideWeight="0.49284694" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35340023" sideWeight="0.49284694" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.211105" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -623,14 +622,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/bla.erb" />
     <entry file="file://$PROJECT_DIR$/views/monstas.erb" />
-    <entry file="file://$PROJECT_DIR$/views/play.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/sinatra-2.0.0/lib/sinatra/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -659,14 +650,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -703,18 +686,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/players_form_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/testing_infrastructure_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="29" lean-forward="false" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/players_form_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/hit_points_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="346">
+          <caret line="28" column="12" lean-forward="false" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/play.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
           <folding />
         </state>
       </provider>

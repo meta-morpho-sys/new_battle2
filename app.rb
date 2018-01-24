@@ -24,10 +24,8 @@ class Battle < Sinatra::Base
 
   get '/play' do
     puts 'session is:'
-    p session
-    p @player1 = session[:monster_name1]
-    p @player2 = session[:monster_name2]
-    p @player1 && @player2
+    @player1 = session[:monster_name1]
+    @player2 = session[:monster_name2]
     erb :play
   end
 
