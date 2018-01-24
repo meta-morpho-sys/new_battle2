@@ -1,8 +1,15 @@
-def sign_in_and_play
+def sign_in_session_and_play
   session = Capybara::Session.new(:selenium)
   session.visit('http://127.0.0.1:9393/new_player_form')
   session.fill_in 'monster_name1', with: 'Yuliya'
   session.fill_in 'monster_name2', with: 'Alan'
   session.click_button 'Monsterize!'
   session
+end
+
+def sign_in_and_play
+  visit '/new_player_form'
+  fill_in 'monster_name1', with: 'Yuliya'
+  fill_in 'monster_name2', with: 'Alan'
+  click_button 'Monsterize!'
 end

@@ -14,7 +14,6 @@ class Battle < Sinatra::Base
   end
 
   post '/players' do
-    p params
     session[:monster_name1] = params[:monster_name1]
     session[:monster_name2] = params[:monster_name2]
     puts 'session after post is:'
@@ -23,10 +22,15 @@ class Battle < Sinatra::Base
   end
 
   get '/play' do
-    puts 'session is:'
     @player1 = session[:monster_name1]
     @player2 = session[:monster_name2]
     erb :play
+  end
+
+  get '/attack' do
+    @player1 = session[:monster_name1]
+    @player2 = session[:monster_name2]
+    erb :attack
   end
 
   run! if app_file == $PROGRAM_NAME
