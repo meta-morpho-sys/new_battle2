@@ -1,6 +1,8 @@
 require 'sinatra/base'
+require './lib/player'
 
 # App controller class
+#
 class Battle < Sinatra::Base
   set :session_secret, 'here be dragons'
   enable :sessions
@@ -14,22 +16,21 @@ class Battle < Sinatra::Base
   end
 
   post '/players' do
-    session[:monster_name1] = params[:monster_name1]
-    session[:monster_name2] = params[:monster_name2]
-    puts 'session after post is:'
-    p session
+    $player_1 = Player.new(params[:monster_name1])
+    $player_2 = Player.new(params[:monster_name2])
     redirect '/play'
   end
 
   get '/play' do
-    @player1 = session[:monster_name1]
-    @player2 = session[:monster_name2]
+    @player1 = $player_1
+    @player2 = $player_2
     erb :play
   end
 
   get '/attack' do
-    @player1 = session[:monster_name1]
-    @player2 = session[:monster_name2]
+    @player1 = $player_1
+    @player2 = $player_2
+    @player1.attack(@player2)
     erb :attack
   end
 
