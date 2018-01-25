@@ -1,0 +1,35 @@
+@startuml
+
+class Game {
+    +attack()
+}
+
+class Player {
+    DEFAULT_HIT_POINTS
+    name
+    hit_points
+    +receive_damage()
+}
+
+class Model {
+    Player
+    Game
+}
+
+class Controller {
+    app.rb
+}
+
+class View {
+    index
+    new_player_form
+    play
+    attach
+}
+
+Game -> "1..*" Player
+
+Model ->View
+View o-> Controller
+
+@enduml
