@@ -7,6 +7,8 @@
       <h2>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h2>
     <% end %>
 
+    <h2><%= @game.current_turn.name %>'s turn</h2>
+
 
     <h3> <%= @game.player1.name %>: <%= @game.player1.hit_points %> HP</h3>
     <h3> <%= @game.player2.name %>: <%= @game.player2.hit_points %> HP</h3>

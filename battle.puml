@@ -1,7 +1,12 @@
 @startuml
 
 class Game {
-    +attack()
+    current_turn
+    +player1()
+    +player2()
+    +attack(player)
+    +switch_turn()
+    -opponent_of(the_player)
 }
 
 class Player {
