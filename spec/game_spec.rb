@@ -36,4 +36,11 @@ describe Game do
       expect(game.current_turn).to eq player2
     end
   end
+
+  describe '#opponent_of' do
+    it 'finds the opponent of the player' do
+      expect(game.opponent_of(player1)).to eq player2
+      expect(game.opponent_of(player2)).to eq player1
+    end
+  end
 end
