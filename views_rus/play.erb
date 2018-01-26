@@ -4,18 +4,18 @@
   <body>
 
     <% if @game.player1 && @game.player2 %>
-      <h2>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h2>
+      <h2>Монстр <%= @game.player1.name%> Против Монстра <%= @game.player2.name%>!</h2>
     <% end %>
 
 
-    <h3> <%= @game.player1.name %>: <%= @game.player1.hit_points %> HP</h3>
-    <h3> <%= @game.player2.name %>: <%= @game.player2.hit_points %> HP</h3>
+    <h3> <%= @game.player1.name %>: <%= @game.player1.hit_points %> Точек</h3>
+    <h3> <%= @game.player2.name %>: <%= @game.player2.hit_points %> Точек</h3>
 
     <a href="https://imgur.com/L6GH0fF"><img src="https://i.imgur.com/L6GH0fF.jpg" title="source: imgur.com" /></a>
     <a href="https://imgur.com/hYa9UcU"><img src="https://i.imgur.com/hYa9UcU.png?2" title="source: imgur.com" /></a>
   </body>
 
-  <a href="/attack">Attack</a>
+  <a href="/attack">В атакууууу!</a>
 
 
 </html>
