@@ -4,9 +4,11 @@ class Game {
     current_turn
     +player1()
     +player2()
-    +attack(player)
+    +attack(player=)
     +switch_turn()
-    -opponent_of(the_player)
+    +opponent_of(the_player)
+    +game_over?
+    +loser
 }
 
 class Player {

@@ -1,7 +1,7 @@
 # Stores names, tracks hit points
 class Player
   DEFAULT_HIT_POINTS = 60
-
+  ERROR_ZERO_POINTS_LEFT = '0 HP left'.freeze
   attr_reader :name, :hit_points
 
   def initialize(name, hit_points = DEFAULT_HIT_POINTS)

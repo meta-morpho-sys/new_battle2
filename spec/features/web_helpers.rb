@@ -13,3 +13,8 @@ def sign_in_and_play
   fill_in 'monster_name2', with: 'Alan'
   click_button 'Monsterize!'
 end
+
+def attack_and_confirm
+  click_button 'Attack'
+  click_button 'Ok'
+end

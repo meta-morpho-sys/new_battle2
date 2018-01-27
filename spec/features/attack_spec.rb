@@ -4,15 +4,14 @@ feature 'Attack the opponent player' do
     # session.click_link 'Attack'
     # expect(session).to have_content 'Yuliya attacks Alan'
     sign_in_and_play
-    click_link 'Attack'
+    click_button 'Attack'
     expect(page).to have_content 'Yuliya attacks Alan'
   end
 
   scenario 'Player 2 attacks player 1 and sees a confirmation' do
     sign_in_and_play
-    click_link 'Attack'
-    click_button 'Ok'
-    click_link 'Attack'
+    attack_and_confirm
+    click_button 'Attack'
     expect(page).to have_content 'Alan attacks Yuliya'
   end
 end
