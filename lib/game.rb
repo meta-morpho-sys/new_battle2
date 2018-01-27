@@ -15,7 +15,11 @@ class Game
     @players.last
   end
 
-  def attack(player)
+  # def attack(player)
+  #   player.receive_damage
+  # end
+
+  def attack(player = opponent_of(current_turn))
     player.receive_damage
   end
 

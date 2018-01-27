@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
       <change beforePath="$PROJECT_DIR$/lib/game.rb" afterPath="$PROJECT_DIR$/lib/game.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/features/hit_points_spec.rb" afterPath="$PROJECT_DIR$/spec/features/hit_points_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/game_spec.rb" afterPath="$PROJECT_DIR$/spec/game_spec.rb" />
+      <change beforePath="$PROJECT_DIR$/views/attack.erb" afterPath="$PROJECT_DIR$/views/attack.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,7 +43,7 @@
     <SUITE FILE_PATH="coverage/new_battle@All_features_in_new_battle__new_battle.coverage" NAME="All features in new-battle: new-battle Coverage Results" MODIFIED="1516660162966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Player_receive_damage__new_battle.coverage" NAME="Player#receive damage: new-battle Coverage Results" MODIFIED="1516908279392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Attack_the_opponent_player_Player_1_attacks_player_2_and_sees_confirmation__new_battle.coverage" NAME="Attack the opponent player Player 1 attacks player 2 and sees confirmation: new-battle Coverage Results" MODIFIED="1516923318948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
-    <SUITE FILE_PATH="coverage/new_battle@All_specs_in_new_battle__new_battle.coverage" NAME="All specs in new-battle: new-battle Coverage Results" MODIFIED="1516987760886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle@All_specs_in_new_battle__new_battle.coverage" NAME="All specs in new-battle: new-battle Coverage Results" MODIFIED="1517008144022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Run_spec__hit_points_spec___new_battle.coverage" NAME="Run spec 'hit_points_spec': new-battle Coverage Results" MODIFIED="1516791848347" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Player_hit_points__new_battle.coverage" NAME="Player#hit points: new-battle Coverage Results" MODIFIED="1516888759013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Game_opponent_of__new_battle.coverage" NAME="Game#opponent_of: new-battle Coverage Results" MODIFIED="1516987543583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
@@ -57,8 +56,28 @@
       <file leaf-file-name="app.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+            <state relative-caret-position="200">
+              <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attack.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/attack.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="play.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/play.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -77,8 +96,8 @@
       <file leaf-file-name="game.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/game.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="315">
+              <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -146,11 +165,11 @@
         <option value="$PROJECT_DIR$/views/play.erb" />
         <option value="$PROJECT_DIR$/battle.puml" />
         <option value="$PROJECT_DIR$/spec/features/switch_turn_spec.rb" />
-        <option value="$PROJECT_DIR$/views/attack.erb" />
         <option value="$PROJECT_DIR$/spec/features/attack_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/hit_points_spec.rb" />
-        <option value="$PROJECT_DIR$/lib/game.rb" />
         <option value="$PROJECT_DIR$/spec/game_spec.rb" />
+        <option value="$PROJECT_DIR$/views/attack.erb" />
+        <option value="$PROJECT_DIR$/lib/game.rb" />
         <option value="$PROJECT_DIR$/app.rb" />
       </list>
     </option>
@@ -450,7 +469,7 @@
       <workItem from="1516106108747" duration="34424000" />
       <workItem from="1516576264712" duration="696000" />
       <workItem from="1516577359107" duration="26436000" />
-      <workItem from="1516734026365" duration="52960000" />
+      <workItem from="1516734026365" duration="56241000" />
     </task>
     <servers />
   </component>
@@ -467,8 +486,8 @@
     <history-entry file="All_specs_in_new-battle__new-battle - 2018.01.26 at 17h 29m 22s.xml">
       <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.01.26 at 17h 05m 29s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.01.26 at 23h 09m 05s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
     <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.01.26 at 17h 09m 51s.xml">
       <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
@@ -487,7 +506,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="114516000" />
+    <option name="totallyTimeSpent" value="117797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -502,11 +521,11 @@
     <frame x="0" y="22" width="1440" height="813" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985157" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34122562" sideWeight="0.51216024" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37604457" sideWeight="0.48783976" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37604457" sideWeight="0.48783976" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277592" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33983287" sideWeight="0.4899857" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2746781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -824,14 +843,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/battle.puml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/players_form_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -840,26 +851,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/play.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/switch_turn_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="10" column="18" lean-forward="false" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/attack.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -880,14 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/game.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="353">
@@ -896,10 +883,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/battle.puml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/play.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="30" lean-forward="false" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/game.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="12" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/attack.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="32" column="53" lean-forward="false" selection-start-line="32" selection-start-column="53" selection-end-line="32" selection-end-column="53" />
+        <state relative-caret-position="200">
+          <caret line="32" column="16" lean-forward="true" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
           <folding />
         </state>
       </provider>
