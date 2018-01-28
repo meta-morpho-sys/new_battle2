@@ -1,14 +1,16 @@
 @startuml
 
 class Game {
+    +{static} create(player1, player2)
+    +{static} instance()
     current_turn
     +player1()
     +player2()
     +attack(player=)
     +switch_turn()
     +opponent_of(the_player)
-    +game_over?
-    +loser
+    +game_over?()
+    +loser()
 }
 
 class Player {
@@ -31,10 +33,11 @@ class View {
     index
     new_player_form
     play
-    attach
+    attack
+    game_over
 }
 
-Game -> "1..*" Player
+Game -> Player :"2" players
 
 Model ->View
 View o-> Controller
