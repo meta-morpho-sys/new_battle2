@@ -16,6 +16,9 @@ describe Player do
   end
 
   describe '#receive damage' do
+    before do
+      allow(Kernel).to receive(:rand).and_return(10)
+    end
     it "reduces player's hit points" do
       allow(game).to receive(:attack)
       game.attack(alan)
