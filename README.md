@@ -1,9 +1,13 @@
 # Battle - diving into the Web
 
 
-Before starting the app run bundle install to make sure all dependencies are available.
+Before starting the app run \
+`bundle install `\
+to make sure all dependencies are available.
 
-To start the app run ruby app.rb from the command line, from within the directory of the app. 
+To start the app run \
+`ruby app.rb` \
+from the command line, from within the directory of the app. 
 
 This app runs only on localhost. Sinatra will start up a server on port 4567.
 
