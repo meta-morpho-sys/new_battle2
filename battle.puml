@@ -18,6 +18,7 @@ class Player {
     name
     hit_points
     +receive_damage()
+    -random_hit_points_generator()
 }
 
 class Model {

@@ -16,18 +16,15 @@ feature 'Displaying hit points' do
     end
 
     scenario 'points reduced randomly for player 2' do
-      random = Kernel
-      expect(random).to receive(:rand).and_return(7)
+      expect(Kernel).to receive(:rand).and_return(7)
       attack_and_confirm
       expect(page).not_to have_content 'Alan: 60 HP'
       expect(page).to have_content 'Alan: 53 HP'
     end
 
     scenario 'points reduced randomly for player 1' do
-      random = Kernel
-      expect(random).to receive(:rand).twice.and_return(7)
-      attack_and_confirm
-      attack_and_confirm
+      expect(Kernel).to receive(:rand).twice.and_return(7)
+      2.times { attack_and_confirm }
       expect(page).not_to have_content 'Yuliya: 60 HP'
       expect(page).to have_content 'Yuliya: 53 HP'
     end

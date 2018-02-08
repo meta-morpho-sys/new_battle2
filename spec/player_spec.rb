@@ -17,8 +17,7 @@ describe Player do
 
   describe '#receive damage' do
     before do
-      random = Kernel
-      expect(random).to receive(:rand).and_return(28)
+      expect(Kernel).to receive(:rand).and_return(28)
     end
 
     it "reduces player's hit points" do

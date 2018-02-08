@@ -16,6 +16,6 @@ class Player
   private
 
   def random_hit_points_generator
-    Kernel.rand(1..10)
+    Kernel.rand(0..15)
   end
 end
