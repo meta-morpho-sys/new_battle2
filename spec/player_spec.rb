@@ -17,12 +17,14 @@ describe Player do
 
   describe '#receive damage' do
     before do
-      allow(Kernel).to receive(:rand).and_return(10)
+      random = Kernel
+      expect(random).to receive(:rand).and_return(28)
     end
+
     it "reduces player's hit points" do
       allow(game).to receive(:attack)
       game.attack(alan)
-      expect { alan.receive_damage }.to change { alan.hit_points }.by(-10)
+      expect { alan.receive_damage }.to change { alan.hit_points }.by(-28)
     end
   end
 end

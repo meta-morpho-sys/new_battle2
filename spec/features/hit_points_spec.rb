@@ -11,17 +11,25 @@ feature 'Displaying hit points' do
   end
 
   context 'while playing the game' do
-    before { sign_in_and_play; attack_and_confirm }
-
-    scenario 'reduced points for player 2 after being attacked' do
-      expect(page).not_to have_content 'Alan: 60 HP'
-      expect(page).to have_content 'Alan: 50 HP'
+    before do
+      sign_in_and_play
     end
 
-    scenario 'reduced points for player 1 after being attacked' do
+    scenario 'points reduced randomly for player 2' do
+      random = Kernel
+      expect(random).to receive(:rand).and_return(7)
+      attack_and_confirm
+      expect(page).not_to have_content 'Alan: 60 HP'
+      expect(page).to have_content 'Alan: 53 HP'
+    end
+
+    scenario 'points reduced randomly for player 1' do
+      random = Kernel
+      expect(random).to receive(:rand).twice.and_return(7)
+      attack_and_confirm
       attack_and_confirm
       expect(page).not_to have_content 'Yuliya: 60 HP'
-      expect(page).to have_content 'Yuliya: 50 HP'
+      expect(page).to have_content 'Yuliya: 53 HP'
     end
   end
 end
