@@ -18,10 +18,3 @@ def attack_and_confirm
   click_button 'Attack'
   click_button 'Ok'
 end
-
-#
-# scenario 'when player 1 misses to hit player 2' do
-#   expect(Kernel).to receive(:rand).and_return(0)
-#   attack_and_confirm
-#   expect(page).to have_content 'You missed!!!😝'
-# end
