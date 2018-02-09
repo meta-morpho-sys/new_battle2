@@ -28,5 +28,12 @@ feature 'Displaying hit points' do
       expect(page).not_to have_content 'Yuliya: 60 HP'
       expect(page).to have_content 'Yuliya: 53 HP'
     end
+
+    scenario 'when player 1 misses to hit player 2' do
+      expect(Kernel).to receive(:rand).and_return(0)
+      attack_and_confirm
+      expect(page).to have_content 'You missed!!!😝'
+    end
   end
+
 end
