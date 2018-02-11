@@ -14,6 +14,13 @@ def sign_in_and_play
   click_button 'Monsterize!'
 end
 
+def sign_in_and_play_against_computer
+  visit '/new_player_form'
+  fill_in 'monster_name1', with: 'Yuliya'
+  fill_in 'monster_name2', with: 'Computer'
+  click_button 'Monsterize!'
+end
+
 def attack_and_confirm
   click_button 'Attack'
   click_button 'Ok'

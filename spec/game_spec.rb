@@ -24,6 +24,10 @@ describe Game do
       expect(player2).to receive(:receive_damage)
       game.attack(player2)
     end
+
+    xit 'attacks player 1' do
+
+    end
   end
 
   describe '#current_turn' do

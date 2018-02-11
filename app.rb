@@ -26,8 +26,10 @@ class Battle < Sinatra::Base
   get '/play' do
     @game = Game.instance_access
     erb :play
+
   end
 
+  # we land here after hitting button ATTACK in /play
   post '/attack' do
     @game = Game.instance_access
     @game.attack
@@ -38,15 +40,29 @@ class Battle < Sinatra::Base
     end
   end
 
+  # we find the button OK here
   get '/attack' do
     @game = Game.instance_access
     erb :attack
   end
 
+  # we land here after pressing the button OK
   post '/switch-turn' do
     @game = Game.instance_access
     @game.switch_turn
-    redirect '/play'
+    if @game.current_turn.computer?
+      @game.attack
+      @game.switch_turn
+      redirect '/computer'
+    else
+      redirect '/play'
+    end
+  end
+
+  get '/computer' do
+    @game = Game.instance_access
+    erb :computer
+      # redirect '/play'
   end
 
   get '/game-over' do

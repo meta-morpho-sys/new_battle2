@@ -1,8 +1,5 @@
 feature 'Attack the opponent player' do
   scenario 'Player 1 attacks player 2 and sees confirmation' do
-    # session = sign_in_session_and_play
-    # session.click_link 'Attack'
-    # expect(session).to have_content 'Yuliya attacks Alan'
     sign_in_and_play
     click_button 'Attack'
     expect(page).to have_content 'Yuliya attacks Alan'
@@ -13,5 +10,14 @@ feature 'Attack the opponent player' do
     attack_and_confirm
     click_button 'Attack'
     expect(page).to have_content 'Alan attacks Yuliya'
+  end
+
+  scenario 'Computer attacks player 1' do
+    sign_in_and_play_against_computer
+    # in /play Yuliya clicks ATTACK
+    # in /attack Yuliya clicks OK
+    attack_and_confirm
+    # now it is COMP's turn
+    expect(current_path).to eq '/computer'
   end
 end
