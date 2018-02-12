@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="412f2c06-1583-4e27-9644-b8460a6a49fb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/new-battle.iml" afterPath="$PROJECT_DIR$/.idea/new-battle.iml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change beforePath="$PROJECT_DIR$/app.rb" afterPath="$PROJECT_DIR$/app.rb" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/app.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/my_rack_app.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/views/brilliant_form.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/views/brilliant_result.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/views/index.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/views/rocky_form.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/exercises-with-sinatra/views/rocky_result.erb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/ideas.rb" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/spec/features/attack_spec.rb" afterPath="$PROJECT_DIR$/spec/features/show_attack_spec.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/features/web_helpers.rb" afterPath="$PROJECT_DIR$/spec/features/web_helpers.rb" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" />
-      <change beforePath="$PROJECT_DIR$/views/attack.erb" afterPath="$PROJECT_DIR$/views/show-attack.erb" />
-      <change beforePath="$PROJECT_DIR$/views/computer.erb" afterPath="$PROJECT_DIR$/views/computer.erb" />
-      <change beforePath="$PROJECT_DIR$/views/new_player_form.erb" afterPath="$PROJECT_DIR$/views/new_player_form.erb" />
-      <change beforePath="$PROJECT_DIR$/views/play.erb" afterPath="$PROJECT_DIR$/views/game-status.erb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,10 +14,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/new_battle@Game_switch_turns__new_battle.coverage" NAME="Game#switch_turns: new-battle Coverage Results" MODIFIED="1516971960913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Displaying_hit_points_reduced_points_for_player_1_after_being_attacked__new_battle.coverage" NAME="Displaying hit points reduced points for player 1 after being attacked: new-battle Coverage Results" MODIFIED="1517095950245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@End_of_the_game__new_battle.coverage" NAME="End of the game: new-battle Coverage Results" MODIFIED="1518437765307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@Displaying_hit_points_while_playing_the_game_points_reduced_randomly_for_player_2__new_battle.coverage" NAME="Displaying hit points while playing the game points reduced randomly for player 2: new-battle Coverage Results" MODIFIED="1518437926092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Game_attack__new_battle.coverage" NAME="Game#attack: new-battle Coverage Results" MODIFIED="1516908037008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Game_game_over__returns_true_if_one_of_the_players_is_at_0_HP__new_battle.coverage" NAME="Game#game_over? returns true if one of the players is at 0 HP: new-battle Coverage Results" MODIFIED="1517075893932" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Displaying_hit_points__new_battle.coverage" NAME="Displaying hit points: new-battle Coverage Results" MODIFIED="1518121272810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@End_of_the_game__new_battle.coverage" NAME="End of the game: new-battle Coverage Results" MODIFIED="1518122500109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@End_of_the_game_when_Player_2_reaches_0_HP_first__new_battle.coverage" NAME="End of the game when Player 2 reaches 0 HP first: new-battle Coverage Results" MODIFIED="1518437485621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@my_erb.coverage" NAME="my_erb Coverage Results" MODIFIED="1516365686388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@spec_helper.coverage" NAME="spec_helper Coverage Results" MODIFIED="1516792248233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spec" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@End_of_the_game_when_Player_2_reaches_0_HP_first__new_battle.coverage" NAME="End of the game when Player 2 reaches 0 HP first: new-battle Coverage Results" MODIFIED="1518122461254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
@@ -74,14 +59,16 @@
     <SUITE FILE_PATH="coverage/new_battle@Players_subscribe_for_the_game__new_battle.coverage" NAME="Players subscribe for the game: new-battle Coverage Results" MODIFIED="1516811852561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Player_knows_his_name__new_battle.coverage" NAME="Player knows his name: new-battle Coverage Results" MODIFIED="1516888226082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Player_attack_damages_the_player__new_battle.coverage" NAME="Player#attack damages the player: new-battle Coverage Results" MODIFIED="1516898746568" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
-    <SUITE FILE_PATH="coverage/new_battle2@Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new_battle.coverage" NAME="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle Coverage Results" MODIFIED="1518436857814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
-    <SUITE FILE_PATH="coverage/new_battle2@All_specs_in_new_battle__new_battle.coverage" NAME="All specs in new-battle: new-battle Coverage Results" MODIFIED="1518400958367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new_battle.coverage" NAME="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle Coverage Results" MODIFIED="1518437180611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@All_specs_in_new_battle__new_battle.coverage" NAME="All specs in new-battle: new-battle Coverage Results" MODIFIED="1518438279867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Player_hit_points_raises_exception_at_0_hit_points__new_battle.coverage" NAME="Player#hit points raises exception at 0 hit points: new-battle Coverage Results" MODIFIED="1517074376701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle2@Attack_the_opponent_player__new_battle.coverage" NAME="Attack the opponent player: new-battle Coverage Results" MODIFIED="1518391171490" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Attack_player_1_attacks_player_2__new_battle.coverage" NAME="Attack player 1 attacks player 2: new-battle Coverage Results" MODIFIED="1516811695478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@End_of_the_game_when_Player_2_reaches_0_HP_first_the_player_loses__new_battle.coverage" NAME="End of the game when Player 2 reaches 0 HP first the player loses: new-battle Coverage Results" MODIFIED="1518437476606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Testing_homepage__new_battle.coverage" NAME="Testing homepage: new-battle Coverage Results" MODIFIED="1516810409913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Switch_turns__new_battle.coverage" NAME="Switch turns: new-battle Coverage Results" MODIFIED="1516970783006" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new_battle.coverage" NAME="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle Coverage Results" MODIFIED="1518276766019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
+    <SUITE FILE_PATH="coverage/new_battle2@End_of_the_game_when_Player_1_reaches_0_HP_first__new_battle.coverage" NAME="End of the game when Player 1 reaches 0 HP first: new-battle Coverage Results" MODIFIED="1518437753256" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@All_specs_in_coverage__new_battle.coverage" NAME="All specs in coverage: new-battle Coverage Results" MODIFIED="1517095979781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/coverage" MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@All_features_in_new_battle__new_battle.coverage" NAME="All features in new-battle: new-battle Coverage Results" MODIFIED="1516660162966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.." MODULE_NAME="new-battle" />
     <SUITE FILE_PATH="coverage/new_battle@End_of_the_game_when_Player_1_reaches_0_HP_first__new_battle.coverage" NAME="End of the game when Player 1 reaches 0 HP first: new-battle Coverage Results" MODIFIED="1518122436683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="new-battle" />
@@ -92,41 +79,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="app.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.rb">
+      <file leaf-file-name="game-status.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/game-status.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="switch_turn_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/switch_turn_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="show_attack_spec.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/features/show_attack_spec.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spec_helper.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="167">
-              <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="360">
+              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -135,18 +92,8 @@
       <file leaf-file-name="show-attack.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/show-attack.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="461">
               <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="game-status.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/game-status.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-40">
-              <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -205,14 +152,9 @@
         <option value="$PROJECT_DIR$/views/index.erb" />
         <option value="$PROJECT_DIR$/views/game_over.erb" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/spec/features/end_of_game_spec.rb" />
         <option value="$PROJECT_DIR$/battle.puml" />
-        <option value="$PROJECT_DIR$/spec/features/hit_points_spec.rb" />
         <option value="$PROJECT_DIR$/spec/features/players_form_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/game_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/player_spec.rb" />
         <option value="$PROJECT_DIR$/lib/player.rb" />
-        <option value="$PROJECT_DIR$/spec/features/switch_turn_spec.rb" />
         <option value="$PROJECT_DIR$/views/play.erb" />
         <option value="$PROJECT_DIR$/views/attack.erb" />
         <option value="$PROJECT_DIR$/ideas.rb" />
@@ -224,11 +166,16 @@
         <option value="$PROJECT_DIR$/spec/features/web_helpers.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/views/game-status.erb" />
-        <option value="$PROJECT_DIR$/app.rb" />
         <option value="/usr/local/lib/ruby/gems/2.4.0/gems/capybara-2.17.0/lib/capybara.rb" />
-        <option value="$PROJECT_DIR$/spec/features/show_attack_spec.rb" />
-        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
         <option value="$PROJECT_DIR$/views/show-attack.erb" />
+        <option value="$PROJECT_DIR$/spec/features/show_attack_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/end_of_game_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/features/switch_turn_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/game_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/player_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/spec_helper.rb" />
+        <option value="$PROJECT_DIR$/spec/features/hit_points_spec.rb" />
+        <option value="$PROJECT_DIR$/app.rb" />
       </list>
     </option>
   </component>
@@ -355,7 +302,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="RSpec.Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle">
+  <component name="RunManager" selected="RSpec.All specs in new-battle: new-battle">
     <configuration name="All specs in new-battle: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
@@ -388,7 +335,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Attack the opponent player Computer attacks player 1: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="Displaying hit points while playing the game points reduced randomly for player 2: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -407,10 +354,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/show_attack_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/hit_points_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Attack the opponent player Computer attacks player 1" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Displaying hit points while playing the game points reduced randomly for player 2" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -420,7 +367,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Attack the opponent player Player 1 attacks player 2 and sees confirmation: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="End of the game when Player 1 reaches 0 HP first: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -439,10 +386,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/show_attack_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/end_of_game_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Attack the opponent player Player 1 attacks player 2 and sees confirmation" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="End of the game when Player 1 reaches 0 HP first" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -452,7 +399,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="End of the game when Player 2 reaches 0 HP first: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -471,10 +418,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/show_attack_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/end_of_game_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Attack the opponent player Player 2 attacks player 1 and sees a confirmation" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="End of the game when Player 2 reaches 0 HP first" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -484,7 +431,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
     </configuration>
-    <configuration name="Attack the opponent player: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration name="End of the game: new-battle" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="new-battle" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -503,10 +450,10 @@
         </COVERAGE_PATTERN>
       </EXTENSION>
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/show_attack_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/features/end_of_game_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="Attack the opponent player" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="End of the game" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -518,18 +465,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.Attack the opponent player Computer attacks player 1: new-battle" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.Attack the opponent player: new-battle" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.Attack the opponent player Player 1 attacks player 2 and sees confirmation: new-battle" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.End of the game when Player 2 reaches 0 HP first: new-battle" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.End of the game when Player 1 reaches 0 HP first: new-battle" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.End of the game: new-battle" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.Displaying hit points while playing the game points reduced randomly for player 2: new-battle" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.Attack the opponent player Player 1 attacks player 2 and sees confirmation: new-battle" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.Attack the opponent player: new-battle" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.Attack the opponent player Computer attacks player 1: new-battle" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.All specs in new-battle: new-battle" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.Displaying hit points while playing the game points reduced randomly for player 2: new-battle" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.End of the game: new-battle" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.End of the game when Player 1 reaches 0 HP first: new-battle" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.End of the game when Player 2 reaches 0 HP first: new-battle" />
       </list>
     </recent_temporary>
   </component>
@@ -553,44 +500,44 @@
       <workItem from="1516734026365" duration="76150000" />
       <workItem from="1517333500369" duration="168000" />
       <workItem from="1518097533183" duration="56198000" />
-      <workItem from="1518388154762" duration="13117000" />
+      <workItem from="1518388154762" duration="14916000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 04m 40s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.02.12 at 12h 16m 36s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 11m 48s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.02.12 at 12h 19m 36s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 12m 21s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.02.12 at 12h 20m 45s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 12m 49s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="All_specs_in_new-battle__new-battle - 2018.02.12 at 12h 25m 19s.xml">
+      <configuration name="All specs in new-battle: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 13m 08s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Displaying_hit_points_while_playing_the_game_points_reduced_randomly_for_player_2__new-battle - 2018.02.12 at 12h 17m 46s.xml">
+      <configuration name="Displaying hit points while playing the game points reduced randomly for player 2: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 13m 33s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Displaying_hit_points_while_playing_the_game_points_reduced_randomly_for_player_2__new-battle - 2018.02.12 at 12h 18m 27s.xml">
+      <configuration name="Displaying hit points while playing the game points reduced randomly for player 2: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 14m 15s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="Displaying_hit_points_while_playing_the_game_points_reduced_randomly_for_player_2__new-battle - 2018.02.12 at 12h 18m 55s.xml">
+      <configuration name="Displaying hit points while playing the game points reduced randomly for player 2: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 14m 42s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="End_of_the_game__new-battle - 2018.02.12 at 12h 16m 14s.xml">
+      <configuration name="End of the game: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 02h 16m 21s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="End_of_the_game_when_Player_1_reaches_0_HP_first__new-battle - 2018.02.12 at 12h 15m 30s.xml">
+      <configuration name="End of the game when Player 1 reaches 0 HP first: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="Attack_the_opponent_player_Player_2_attacks_player_1_and_sees_a_confirmation__new-battle - 2018.02.12 at 12h 01m 09s.xml">
-      <configuration name="Attack the opponent player Player 2 attacks player 1 and sees a confirmation: new-battle" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="End_of_the_game_when_Player_1_reaches_0_HP_first__new-battle - 2018.02.12 at 12h 16m 02s.xml">
+      <configuration name="End of the game when Player 1 reaches 0 HP first: new-battle" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207189000" />
+    <option name="totallyTimeSpent" value="208988000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,15 +550,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="816" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.44778255" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3259362" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5742025" sideWeight="0.51573676" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36477116" sideWeight="0.48426324" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36477116" sideWeight="0.48426324" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25797504" sideWeight="0.48640916" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25797504" sideWeight="0.48640916" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22246066" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -788,29 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="7" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="29" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/hit_points_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/rspec-expectations-3.7.0/lib/rspec/expectations/syntax.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
@@ -879,14 +802,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/web_helpers.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="93">
-          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/sinatra-2.0.0/lib/sinatra/base.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -927,14 +842,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/end_of_game_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="27" lean-forward="false" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/bin/rspec">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="174">
@@ -959,14 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/features/switch_turn_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/lib/ruby/gems/2.4.0/gems/capybara-2.17.0/lib/capybara.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -975,41 +874,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/game-status.erb">
+    <entry file="file://$PROJECT_DIR$/spec/features/web_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="26" />
+        <state relative-caret-position="135">
+          <caret line="9" column="4" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+    <entry file="file://$PROJECT_DIR$/spec/features/end_of_game_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/switch_turn_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/show_attack_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/game_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="25" column="7" lean-forward="false" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/player_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="40" lean-forward="false" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/features/hit_points_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="34" column="9" lean-forward="false" selection-start-line="34" selection-start-column="9" selection-end-line="34" selection-end-column="9" />
+        <state relative-caret-position="341">
+          <caret line="42" column="16" lean-forward="false" selection-start-line="42" selection-start-column="16" selection-end-line="42" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/game-status.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="26" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/show-attack.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="461">
           <caret line="41" column="27" lean-forward="false" selection-start-line="41" selection-start-column="27" selection-end-line="41" selection-end-column="27" />
           <folding />
         </state>
