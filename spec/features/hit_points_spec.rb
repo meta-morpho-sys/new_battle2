@@ -10,11 +10,10 @@ feature 'Displaying hit points' do
     end
   end
 
-  context 'while playing the game' do
+  context 'while playing the game', js: true do
     before do
       sign_in_and_play
     end
-
     scenario 'points reduced randomly for player 2' do
       expect(Kernel).to receive(:rand).and_return(7)
       attack_and_confirm
@@ -35,5 +34,4 @@ feature 'Displaying hit points' do
       expect(page).to have_content 'You missed!!!😝'
     end
   end
-
 end

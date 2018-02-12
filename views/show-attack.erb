@@ -1,0 +1,49 @@
+<!--# Displays who is attacking who displays the points -->
+
+
+<% if @game.current_turn == @game.player1 %>
+  <h1><%= @game.player1.name %> attacks <%= @game.player2.name %></h1>
+<% else %>
+  <h1><%= @game.player2.name %> attacks <%= @game.player1.name %></h1>
+<% end %>
+
+
+  <div id="count"></div>
+
+<h2>the blow is</h2>
+    <div id="points"></div>
+
+
+
+<script language="JavaScript">
+
+    function showCount(num) {
+        document.getElementById("count").innerText = num;
+    }
+
+    function showPoints(num) {
+        document.getElementById("points").innerText = num;
+    }
+    var points = <%= @game.player1.hit_points %>;
+
+    function countDown() {
+        count--;
+        showCount(count);
+        if (count <= 0) {
+            showPoints(points);
+            setTimeout(nextPage, 2000);
+        } else {
+            setTimeout(countDown, 1000);
+        }
+    }
+    var count = 3;
+    showCount(count);
+
+    setTimeout(countDown, 500);
+
+    function nextPage() {
+        document.location = "/switch-turn";
+    };
+
+</script>
+

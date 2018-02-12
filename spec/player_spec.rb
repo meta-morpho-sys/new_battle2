@@ -3,7 +3,7 @@ require 'player'
 describe Player do
   subject(:alan) { Player.new 'Alan' }
   let(:yuliya) { Player.new 'Yuliya' }
-  let(:player2) { Player.new 'Computer'}
+  let(:player2) { Player.new 'Computer' }
   let(:game) { double :game }
 
   it 'knows his name' do

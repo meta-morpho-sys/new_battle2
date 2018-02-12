@@ -1,17 +1,25 @@
-<%= @game.current_turn.name %> is about to attack you....3..2..1....
+<h2><%= @game.current_turn.name %> is about to attack you.....
+  <div id="count"></div>
+</h2>
 
 <script language="JavaScript">
-  function nextPage() {
-      document.location = "/play";
-  }
-  setTimeout(nextPage, 3000)
+
+function showCount(num) {
+    document.getElementById("count").innerText = num;
+}
+var count = 3;
+showCount(count);
+
+function countDown() {
+    count--;
+    showCount(count);
+    if (count == 0) {
+        document.location = "/play";
+    } else {
+        setTimeout(countDown, 1000);
+    }
+}
+
+setTimeout(countDown, 1000);
+
 </script>
-
-
-
-
-
-
-<!--<form action="/switch-turn" method="get">-->
-  <!--<input type="submit" value="Ok">-->
-<!--</form>-->

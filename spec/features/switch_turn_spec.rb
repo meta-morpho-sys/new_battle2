@@ -5,7 +5,7 @@ feature 'Switch turns' do
       expect(page).to have_content "Yuliya's turn"
     end
 
-    scenario 'after Player 1 attacked' do
+    scenario 'after Player 1 attacked', js: true do
       sign_in_and_play
       attack_and_confirm
       expect(page).not_to have_content "Yuliya's turn"

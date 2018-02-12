@@ -16,57 +16,41 @@ class Battle < Sinatra::Base
     erb :new_player_form
   end
 
-  post '/players' do
+  before do
+    @game = Game.instance_access
+  end
+
+  post '/start-game' do
     player1 = Player.new(params[:monster_name1])
     player2 = Player.new(params[:monster_name2])
     @game = Game.create(player1, player2)
-    redirect '/play'
+    redirect '/game-status'
   end
 
-  get '/play' do
-    @game = Game.instance_access
-    erb :play
-
+  get '/game-status' do
+    erb :'game-status'
   end
 
-  # we land here after hitting button ATTACK in /play
   post '/attack' do
-    @game = Game.instance_access
     @game.attack
     if @game.game_over?
       redirect '/game-over'
     else
-      redirect '/attack'
+      redirect '/show-attack'
     end
   end
 
-  # we find the button OK here
-  get '/attack' do
-    @game = Game.instance_access
-    erb :attack
+  get '/show-attack' do
+    erb :'show-attack'
   end
 
-  # we land here after pressing the button OK
-  post '/switch-turn' do
-    @game = Game.instance_access
+  get '/switch-turn' do
     @game.switch_turn
-    if @game.current_turn.computer?
-      @game.attack
-      @game.switch_turn
-      redirect '/computer'
-    else
-      redirect '/play'
-    end
-  end
-
-  get '/computer' do
-    @game = Game.instance_access
-    erb :computer
-      # redirect '/play'
+    @game.attack if @game.current_turn.computer?
+    redirect '/game-status'
   end
 
   get '/game-over' do
-    @game = Game.instance_access
     erb :game_over
   end
 

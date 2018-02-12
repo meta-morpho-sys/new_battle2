@@ -17,6 +17,8 @@ SimpleCov.formatter = SCF::MultiFormatter.new(formatters)
 
 SimpleCov.start
 
+Capybara.default_max_wait_time = 6
+
 RSpec.configure do |config|
   config.expect_with :rspec do |expectations|
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
