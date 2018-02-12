@@ -1,29 +1,29 @@
 <html>
-  <head><title>Play</title></head>
+<head><title>Play</title></head>
 
-  <body>
+<body>
 
-    <% if @game.player1 && @game.player2 %>
-      <h3>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h3>
-    <% end %>
+<% if @game.player1 && @game.player2 %>
+  <h3>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h3>
+<% end %>
 
-    <% if @game.current_turn.points == 0 %>
-      <h1>You missed!!!😝</h1>
-    <% elsif @game.current_turn.points == 5 %>
-      <h1>Huh!!! Mere flesh wound!!!</h1>
-    <% elsif @game.current_turn.points == 7 %>
-      <h1>You can do better than that!!!</h1>
-    <% end %>
+<% if @game.current_turn.points == 0 %>
+  <h1>You missed!!!😝</h1>
+<% elsif @game.current_turn.points == 5 %>
+  <h1>Huh!!! Mere flesh wound!!!</h1>
+<% elsif @game.current_turn.points == 7 %>
+  <h1>You can do better than that!!!</h1>
+<% end %>
 
-    <h2><%= @game.current_turn.name %>'s turn</h2>
+<h2><%= @game.current_turn.name %>'s turn</h2>
 
 
-    <form action="/attack" method="post">
-      <input type="submit" value="Attack">
-    </form>
+<form action="/attack" method="post">
+  <input type="submit" value="Attack">
+</form>
 
-    <h3> <%= @game.player1.name %>: <%= @game.player1.hit_points %> HP</h3>
-    <h3> <%= @game.player2.name %>: <%= @game.player2.hit_points %> HP</h3>
+<h3> <%= @game.player1.name %>: <%= @game.player1.hit_points %> HP</h3>
+<h3> <%= @game.player2.name %>: <%= @game.player2.hit_points %> HP</h3>
 
 <table>
   <tr>
@@ -45,7 +45,7 @@
 </table>
 
 
-  </body>
+</body>
 
 
 </html>
