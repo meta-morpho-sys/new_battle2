@@ -1,4 +1,4 @@
-<!--# Displays who is attacking who displays the points -->
+<!--# Displays who is attacking and displays the damage points -->
 
 
 <% if @game.current_turn == @game.player1 %>
@@ -10,10 +10,8 @@
 
 <div id="count"></div>
 
-<h2>the blow is</h2>
+<h2>The score is </h2>
 <div id="points"></div>
-
-
 
 <script language="JavaScript">
 
@@ -24,7 +22,7 @@
     function showPoints(num) {
         document.getElementById("points").innerText = num;
     }
-    var points = <%= @game.player1.hit_points %>;
+    var points = (<%= @game.player1.damage_score || @game.player2.damage_score %>);
 
     function countDown() {
         count--;

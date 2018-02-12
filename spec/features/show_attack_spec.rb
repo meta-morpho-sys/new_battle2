@@ -12,6 +12,13 @@ feature 'Attack the opponent player', js: true do
     expect(page).to have_content 'Alan attacks Yuliya'
   end
 
+  scenario 'the page displays the score of the current attack' do
+    sign_in_and_play
+    allow(Kernel).to receive(:rand).and_return(8)
+    click_button 'Attack'
+    expect(page).to have_content 'The score is 8'
+  end
+
   # scenario 'Computer attacks player 1' do
   #   sign_in_and_play_against_computer
   #   # in /play Yuliya clicks ATTACK

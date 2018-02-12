@@ -7,16 +7,13 @@
   <h3>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h3>
 <% end %>
 
-<% if @game.current_turn.points == 0 %>
+<% if @game.current_turn.damage_score == 0 %>
   <h1>You missed!!!😝</h1>
-<% elsif @game.current_turn.points == 5 %>
+<% elsif @game.current_turn.damage_score == 5 %>
   <h1>Huh!!! Mere flesh wound!!!</h1>
-<% elsif @game.current_turn.points == 7 %>
+<% elsif @game.current_turn.damage_score == 7 %>
   <h1>You can do better than that!!!</h1>
 <% end %>
-
-<h2><%= @game.current_turn.name %>'s turn</h2>
-
 
 <form action="/attack" method="post">
   <input type="submit" value="Attack">
@@ -33,12 +30,12 @@
   <tr>
     <td>
       <h2>
-        <%= "#{@game.player1.name}s turn"  if @game.current_turn == @game.player1 %>
+        <%= "#{@game.player1.name}'s turn"  if @game.current_turn == @game.player1 %>
       </h2>
     </td>
     <td>
       <h2>
-        <%= "#{@game.player2.name}s turn" if @game.current_turn == @game.player2 %>
+        <%= "#{@game.player2.name}'s turn" if @game.current_turn == @game.player2 %>
       </h2>
     </td>
   </tr>
