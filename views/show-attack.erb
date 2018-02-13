@@ -1,11 +1,7 @@
 <!--# Displays who is attacking and displays the damage points -->
 
 
-<% if @game.current_turn == @game.player1 %>
-  <h1><%= @game.player1.name %> attacks <%= @game.player2.name %></h1>
-<% else %>
-  <h1><%= @game.player2.name %> attacks <%= @game.player1.name %></h1>
-<% end %>
+<h1><%= @game.current_turn.name %> attacks <%= @game.other_turn.name %></h1>
 
 
 <div id="count"></div>
@@ -22,7 +18,7 @@
     function showPoints(num) {
         document.getElementById("points").innerText = num;
     }
-    var points = (<%= @game.player1.damage_score || @game.player2.damage_score %>);
+    var points = <%= @game.other_turn.damage_score %>;
 
     function countDown() {
         count--;
@@ -41,6 +37,6 @@
 
     function nextPage() {
         document.location = "/switch-turn";
-    };
+    }
 
 </script>

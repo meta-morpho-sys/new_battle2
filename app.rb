@@ -33,11 +33,8 @@ class Battle < Sinatra::Base
 
   post '/attack' do
     @game.attack
-    if @game.game_over?
-      redirect '/game-over'
-    else
-      redirect '/show-attack'
-    end
+    redirect '/show-attack' unless @game.game_over?
+    redirect '/game-over'
   end
 
   get '/show-attack' do
@@ -46,7 +43,7 @@ class Battle < Sinatra::Base
 
   get '/switch-turn' do
     @game.switch_turn
-    @game.attack if @game.current_turn.computer?
+    @game.attack if @game.current_turn.a_computer?
     redirect '/game-status'
   end
 

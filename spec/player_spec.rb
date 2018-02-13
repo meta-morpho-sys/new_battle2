@@ -11,7 +11,7 @@ describe Player do
   end
 
   it 'knows it is a computer' do
-    expect(player2.computer?).to eq true
+    expect(player2.a_computer?).to eq true
   end
 
   describe '#hit points' do
