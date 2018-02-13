@@ -8,12 +8,12 @@ describe 'Game' do
   subject(:game) { Game.create(alan, yuliya) }
 
   it 'rotates players' do
-      game.attack
-      expect(game.current_turn.name).to eq 'Alan'
-      expect(game.other_turn.name).to eq 'Yuliya'
-      game.switch_turn
-      expect(game.current_turn.name).to eq 'Yuliya'
-      expect(game.other_turn.name).to eq 'Alan'
+    game.attack
+    expect(game.current_turn.name).to eq 'Alan'
+    expect(game.other_turn.name).to eq 'Yuliya'
+    game.switch_turn
+    expect(game.current_turn.name).to eq 'Yuliya'
+    expect(game.other_turn.name).to eq 'Alan'
   end
 
   context 'monitoring the score', :aggregated_failures do
@@ -47,17 +47,17 @@ describe 'Game' do
     end
   end
 end
-#
-# alan = Player.new 'Alan'
-# yuliya = Player.new 'Yuliya'
-#
-# game = Game.create(alan, yuliya)
-#
-# 25.times do
-#   game.attack
-#
-#   p alan, yuliya, game.current_turn.damage_score, game.other_turn.damage_score
-#   puts
-#
-#   game.switch_turn
-# end
+
+alan = Player.new 'Alan'
+yuliya = Player.new 'Computer'
+
+game = Game.create(alan, yuliya)
+
+12.times do
+  game.attack
+
+  p alan, yuliya, game.other_turn.damage_score
+  puts
+
+  game.switch_turn
+end

@@ -43,7 +43,10 @@ class Battle < Sinatra::Base
 
   get '/switch-turn' do
     @game.switch_turn
-    @game.attack if @game.current_turn.a_computer?
+    if @game.current_turn.a_computer?
+      @game.attack
+      redirect '/show-attack'
+    end
     redirect '/game-status'
   end
 

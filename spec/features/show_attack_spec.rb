@@ -18,13 +18,4 @@ feature 'Attack the opponent player', js: true do
     click_button 'Attack'
     expect(page).to have_content 'The score is 8'
   end
-
-  # scenario 'Computer attacks player 1' do
-  #   sign_in_and_play_against_computer
-  #   # in /play Yuliya clicks ATTACK
-  #   # in /attack Yuliya clicks OK
-  #   attack_and_confirm
-  #   # now it is COMP's turn
-  #   expect(current_path).to eq '/computer'
-  # end
 end
