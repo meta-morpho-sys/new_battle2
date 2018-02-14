@@ -27,6 +27,10 @@ class Game
     player.receive_damage
   end
 
+  def paralyse(player = opponent_of(current_turn))
+    player.try_to_paralyse
+  end
+
   def switch_turn
     @current_turn = opponent_of(current_turn)
   end

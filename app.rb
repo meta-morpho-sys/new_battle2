@@ -43,6 +43,14 @@ class Battle < Sinatra::Base
     erb :'show-attack'
   end
 
+  post '/missed-turn' do
+    redirect '/paralyse-sleep'
+  end
+
+  get '/paralyse-sleep' do
+    erb :'paralyse-sleep'
+  end
+
   get '/switch-turn' do
     @game.switch_turn
     if @game.current_turn.a_computer?

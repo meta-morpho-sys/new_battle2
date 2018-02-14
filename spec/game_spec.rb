@@ -6,6 +6,7 @@ describe Game do
   let(:player1) { double :player, hit_points: 60 }
   let(:player2) { double :player, hit_points: 60 }
   let(:dead_player) { double :player, hit_points: 0 }
+  let(:current_player) { double :player1 }
 
   describe '#player1' do
     it 'retrieves the first player' do
@@ -26,9 +27,22 @@ describe Game do
     end
   end
 
+  describe '#paralyse' do
+    it 'paralyses the opponent' do
+      expect(player2).to receive(:try_to_paralyse)
+      game.paralyse(player2)
+    end
+  end
+
   describe '#current_turn' do
     it 'starts as player 1' do
       expect(game.current_turn).to eq player1
+    end
+  end
+
+  describe '#other_turn' do
+    it 'returns the opponent of the player' do
+      expect(game.other_turn).not_to eq current_player
     end
   end
 
