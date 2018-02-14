@@ -20,4 +20,12 @@ class Player
   def a_computer?
     @name == 'Computer'
   end
+
+  def try_to_paralyse
+    @paralysed = [true, false].sample
+  end
+
+  def paralysed?
+    @paralysed
+  end
 end

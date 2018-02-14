@@ -31,4 +31,16 @@ describe Player do
       expect { alan.receive_damage }.to change { alan.hit_points }.by(-28)
     end
   end
+
+  describe '#try_to_paralyse' do
+    before do
+      array = [true, false]
+      allow(array).to receive(:sample).and_return true
+    end
+    it 'can randomly paralyse the opponent' do
+      allow(game).to receive(:paralyse)
+      game.paralyse alan
+      expect(alan.try_to_paralyse).to eq true
+    end
+  end
 end
