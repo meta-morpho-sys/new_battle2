@@ -9,11 +9,11 @@ describe 'Game' do
 
   it 'rotates players' do
     game.attack
-    expect(game.current_turn.name).to eq 'Alan'
-    expect(game.other_turn.name).to eq 'Yuliya'
+    expect(game.current_turn).to eq alan
+    expect(game.other_turn).to eq yuliya
     game.switch_turn
-    expect(game.current_turn.name).to eq 'Yuliya'
-    expect(game.other_turn.name).to eq 'Alan'
+    expect(game.current_turn).to eq yuliya
+    expect(game.other_turn).to eq alan
   end
 
   context 'monitoring the score', :aggregated_failures do
@@ -48,16 +48,16 @@ describe 'Game' do
   end
 end
 
-alan = Player.new 'Alan'
-yuliya = Player.new 'Computer'
-
-game = Game.create(alan, yuliya)
-
-12.times do
-  game.attack
-
-  p alan, yuliya, game.other_turn.damage_score
-  puts
-
-  game.switch_turn
-end
+# alan = Player.new 'Alan'
+# yuliya = Player.new 'Computer'
+#
+# game = Game.create(alan, yuliya)
+#
+# 12.times do
+#   game.attack
+#
+#   p alan, yuliya, game.other_turn.damage_score
+#   puts
+#
+#   game.switch_turn
+# end

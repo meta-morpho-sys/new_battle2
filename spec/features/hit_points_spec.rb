@@ -35,12 +35,23 @@ feature 'Displaying hit points' do
     end
 
     context 'when playing against Computer', js: true do
-      scenario 'when Player 1 attacks Computer' do
+      before do
         sign_in_and_play_against_computer
         allow(Kernel).to receive(:rand).and_return(6)
         click_button 'Attack'
         visit '/game-status'
+      end
+
+      scenario 'when Player 1 attacks Computer' do
         expect(page).to have_content 'Yuliya: 60 HP'
+        expect(page).to have_content 'Computer: 54 HP'
+      end
+
+      scenario 'when Computer attacks in return' do
+        allow(Kernel).to receive(:rand).and_return(13)
+        visit '/switch-turn'
+        visit '/game-status'
+        expect(page).to have_content 'Yuliya: 47 HP'
         expect(page).to have_content 'Computer: 54 HP'
       end
     end

@@ -11,6 +11,9 @@
 
 <script language="JavaScript">
 
+    var page_delay = <%= TimeDelay.countdown_tick_time %>;
+    var countdown_tick_time = <%= TimeDelay.countdown_tick_time %>;
+
     function showCount(num) {
         document.getElementById("count").innerText = num;
     }
@@ -25,15 +28,15 @@
         showCount(count);
         if (count <= 0) {
             showPoints(points);
-            setTimeout(nextPage, 2000);
+            setTimeout(nextPage, page_delay);
         } else {
-            setTimeout(countDown, 1000);
+            setTimeout(countDown, countdown_tick_time);
         }
     }
     var count = 3;
     showCount(count);
 
-    setTimeout(countDown, 500);
+    setTimeout(countDown, page_delay/2);
 
     function nextPage() {
         document.location = "/switch-turn";

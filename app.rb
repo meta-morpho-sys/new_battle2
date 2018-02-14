@@ -1,10 +1,12 @@
 require 'sinatra/base'
 require './lib/player'
 require './lib/game'
+require './lib/time_delays'
 
 # App controller class
 #
 class Battle < Sinatra::Base
+
   set :session_secret, 'here be dragons'
   enable :sessions
 
