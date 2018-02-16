@@ -4,9 +4,7 @@ require './lib/game'
 require './lib/time_delays'
 
 # App controller class
-#
 class Battle < Sinatra::Base
-
   set :session_secret, 'here be dragons'
   enable :sessions
 
@@ -35,6 +33,7 @@ class Battle < Sinatra::Base
 
   post '/attack' do
     @game.attack
+    @game.unparalyse if @game.other_turn.paralysed?
     redirect '/show-attack' unless @game.game_over?
     redirect '/game-over'
   end
@@ -43,7 +42,8 @@ class Battle < Sinatra::Base
     erb :'show-attack'
   end
 
-  post '/missed-turn' do
+  post '/paralyse-sleep' do
+    @game.paralyse
     redirect '/paralyse-sleep'
   end
 

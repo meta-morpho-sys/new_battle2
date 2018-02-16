@@ -7,7 +7,10 @@ class Game {
     +player1()
     +player2()
     +attack(player=)
+    +paralyse(player=)
+    +unparalyse(player)
     +switch_turn()
+    +other_turn()
     +opponent_of(the_player)
     +game_over?()
     +loser()
@@ -15,9 +18,14 @@ class Game {
 
 class Player {
     DEFAULT_HIT_POINTS
-    name
-    hit_points
+    +name
+    +hit_points
+    +damage_score
+    +paralysed
     +receive_damage()
+    +a_computer?()
+    +try_to_paralyse()
+    +paralysed?()
     -random_hit_points_generator()
 }
 
@@ -33,8 +41,9 @@ class Controller {
 class View {
     index
     new_player_form
-    play
-    attack
+    game_status
+    show-attack
+    paralyse-sleep
     game_over
 }
 
