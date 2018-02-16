@@ -46,6 +46,25 @@ describe 'Game' do
       expect(game.loser.hit_points).to eq 0
     end
   end
+
+  context 'precedence of turns' do
+    context 'attack after paralyse' do
+      example 'player 2 recovers from paralysis and takes turn to attack' do
+        # Alan successfully paralyses Yuliya
+        yuliya.paralysed = true
+        # it is Alan's turn
+        expect(game.current_turn).to eq alan
+        # so Alan takes this opportunity to attack Yuliya
+        game.switch_turn
+        expect(game.current_turn).to eq alan
+        game.attack
+        game.unparalyse if game.other_turn.paralysed?
+        game.switch_turn
+        # now the turn should pass to Yuliya
+        expect(game.current_turn).to eq yuliya
+      end
+    end
+  end
 end
 
 # alan = Player.new 'Alan'

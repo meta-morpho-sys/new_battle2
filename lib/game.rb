@@ -23,16 +23,20 @@ class Game
     @players.last
   end
 
-  def attack(player = opponent_of(current_turn))
+  def attack(player = other_turn)
     player.receive_damage
   end
 
-  def paralyse(player = opponent_of(current_turn))
+  def paralyse(player = other_turn)
     player.try_to_paralyse
   end
 
+  def unparalyse(player = other_turn)
+    player.paralysed = false
+  end
+
   def switch_turn
-    @current_turn = opponent_of(current_turn)
+    @current_turn = other_turn unless other_turn.paralysed?
   end
 
   def other_turn

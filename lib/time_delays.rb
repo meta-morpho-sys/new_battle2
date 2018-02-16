@@ -1,6 +1,4 @@
-# COUNTDOWN_TICK_TIME = 1000
-# PAGE_DELAY = 2000
-
+# Manages time set of the delays in JS
 class TimeDelay
   def self.countdown_tick_time
     1000

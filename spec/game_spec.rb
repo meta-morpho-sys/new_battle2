@@ -3,8 +3,8 @@ require 'game'
 describe Game do
   subject(:game) { Game.new(player1, player2) }
   subject(:finished_game) { Game.new(dead_player, player2) }
-  let(:player1) { double :player, hit_points: 60 }
-  let(:player2) { double :player, hit_points: 60 }
+  let(:player1) { double :Yuliya, hit_points: 60 }
+  let(:player2) { double :Alan, hit_points: 60 }
   let(:dead_player) { double :player, hit_points: 0 }
   let(:current_player) { double :player1 }
 
@@ -48,8 +48,21 @@ describe Game do
 
   describe '#switch_turns' do
     it 'switches the turn' do
+      allow(player2).to receive(:paralysed?)
       game.switch_turn
       expect(game.current_turn).to eq player2
+    end
+
+    it 'switches the turn if the opponent in not paralysed' do
+      allow(player2).to receive(:paralysed?).and_return false
+      game.switch_turn
+      expect(game.current_turn).to eq player2
+    end
+
+    it 'does not switches the turn if the opponent in paralysed' do
+      allow(player2).to receive(:paralysed?).and_return true
+      game.switch_turn
+      expect(game.current_turn).to eq player1
     end
   end
 

@@ -1,1 +1,31 @@
-<h1>Alan was paralyzed.🤐 He misses a turn!</h1>
+<% if @game.other_turn.paralysed? %>
+  <h1><%= @game.other_turn.name %> was paralysed.🤐 <%= @game.current_turn.name %>'s turn again!</h1>
+<% else %>
+  <h1>You missed your chance to paralyse <%= @game.other_turn.name %>. 😛😛😛</h1>
+<% end %>
+
+
+<script language="JavaScript">
+
+    var page_delay = <%= TimeDelay.countdown_tick_time %>;
+    var countdown_tick_time = <%= TimeDelay.countdown_tick_time %>;
+
+    function countDown() {
+        count--;
+        if (count <= 0) {
+            setTimeout(nextPage, page_delay);
+        } else {
+            setTimeout(countDown, countdown_tick_time);
+        }
+    }
+    var count = 2;
+
+    setTimeout(countDown, page_delay/2);
+
+    function nextPage() {
+        document.location = "/switch-turn";
+    }
+    // function nextPage() {
+    //     document.location = "/game-status";
+    // }
+</script>
