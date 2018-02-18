@@ -24,22 +24,22 @@ class Battle < Sinatra::Base
     player1 = Player.new(params[:monster_name1])
     player2 = Player.new(params[:monster_name2])
     @game = Game.create(player1, player2)
-    redirect '/game-status'
+    redirect '/game_status'
   end
 
-  get '/game-status' do
-    erb :'game-status'
+  get '/game_status' do
+    erb :game_status
   end
 
   post '/attack' do
     @game.attack
     @game.thaw
-    redirect '/show-attack' unless @game.game_over?
-    redirect '/game-over'
+    redirect '/show_attack' unless @game.game_over?
+    redirect '/game_over'
   end
 
-  get '/show-attack' do
-    erb :'show-attack'
+  get '/show_attack' do
+    erb :show_attack
   end
 
   post '/paralyse' do
@@ -48,24 +48,28 @@ class Battle < Sinatra::Base
   end
 
   get '/paralyse' do
-    erb 'paralyse'
+    erb :paralyse
   end
 
-  post 'poison' do
+  post '/poison' do
     @game.poison
-    redirect
+    redirect '/poisoned'
   end
 
-  get '/switch-turn' do
+  get '/poisoned' do
+    erb :poisoned
+  end
+
+  get '/switch_turn' do
     @game.switch_turn
     if @game.current_turn.a_computer?
       @game.attack
-      redirect '/show-attack'
+      redirect '/show_attack'
     end
-    redirect '/game-status'
+    redirect '/game_status'
   end
 
-  get '/game-over' do
+  get '/game_over' do
     erb :game_over
   end
 

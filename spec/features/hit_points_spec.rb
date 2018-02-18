@@ -39,7 +39,7 @@ feature 'Displaying hit points' do
         sign_in_and_play_against_computer
         allow(Kernel).to receive(:rand).and_return(6)
         click_button 'Attack'
-        visit '/game-status'
+        visit '/game_status'
       end
 
       scenario 'when Player 1 attacks Computer' do
@@ -49,8 +49,8 @@ feature 'Displaying hit points' do
 
       scenario 'when Computer attacks in return' do
         allow(Kernel).to receive(:rand).and_return(13)
-        visit '/switch-turn'
-        visit '/game-status'
+        visit '/switch_turn'
+        visit '/game_status'
         expect(page).to have_content 'Yuliya: 47 HP'
         expect(page).to have_content 'Computer: 54 HP'
       end

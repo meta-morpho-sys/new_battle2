@@ -1,4 +1,4 @@
-<!--# Displays who is attacking and displays the damage points. Automatic redirection through JS to /switch-turn-->
+<!--# Displays who is attacking and displays the damage points. Automatic redirection through JS to /switch_turn-->
 
 
 <h1><%= @game.current_turn.name %> attacks <%= @game.other_turn.name %></h1>
@@ -39,6 +39,6 @@
     setTimeout(countDown, page_delay/2);
 
     function nextPage() {
-        document.location = "/switch-turn";
+        document.location = "/switch_turn";
     }
 </script>

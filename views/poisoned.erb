@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Poison</title>
+
+  <link rel="stylesheet" type="text/css" href="/my_style.css">
+</head>
+
+<body>
+
+  <h2><%= @game.other_turn.name %> got poisoned and may lose <%= @game.other_turn.damage_score %> points.</h2>
+<h2></h2>
+
+
+</body>
+
+<script language="JavaScript">
+
+   var page_delay = <%= TimeDelay.page_delay %>;
+   var countdown_tick_time = <%= TimeDelay.countdown_tick_time %>;
+
+   function countDown() {
+       count--;
+       if (count <= 0) {
+           setTimeout(nextPage, page_delay);
+       } else {
+           setTimeout(countDown, countdown_tick_time);
+       }
+   }
+   var count = 2;
+
+   setTimeout(countDown, page_delay/2);
+
+   function nextPage() {
+       document.location = "/switch_turn";
+   }
+
+</script>
+
+</html>

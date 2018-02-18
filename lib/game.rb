@@ -35,6 +35,10 @@ class Game
     player.paralysed = false
   end
 
+  def poison(player = other_turn)
+    player.random_hit_points_generator(5)
+  end
+
   def switch_turn
     @current_turn = other_turn unless other_turn.paralysed?
   end

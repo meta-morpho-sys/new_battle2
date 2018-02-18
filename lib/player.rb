@@ -14,8 +14,8 @@ class Player
     @hit_points -= random_hit_points_generator
   end
 
-  def random_hit_points_generator
-    @damage_score = Kernel.rand(0..15)
+  def random_hit_points_generator(max_range = 15)
+    @damage_score = Kernel.rand(0..max_range)
   end
 
   def a_computer?

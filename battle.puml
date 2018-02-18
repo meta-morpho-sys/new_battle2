@@ -42,7 +42,7 @@ class View {
     index
     new_player_form
     game_status
-    show-attack
+    show_attack
     paralyse-sleep
     game_over
 }

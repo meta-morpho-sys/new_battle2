@@ -41,6 +41,13 @@ describe Game do
     end
   end
 
+  describe '#poison' do
+    it 'damages the opponent by few points' do
+      expect(player2).to receive(:random_hit_points_generator).with(5)
+      game.poison(player2)
+    end
+  end
+
   describe '#current_turn' do
     it 'starts as player 1' do
       expect(game.current_turn).to eq player1
