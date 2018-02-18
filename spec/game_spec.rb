@@ -36,14 +36,14 @@ describe Game do
 
   describe '#thaw' do
     it 'releases the opponent from his paralysis' do
-      allow(player2).to receive(:paralysed?)
+      allow(player2).to receive(:paralysed=)
       game.thaw(player2)
     end
   end
 
   describe '#poison' do
     it 'damages the opponent by few points' do
-      expect(player2).to receive(:random_hit_points_generator).with(5)
+      expect(player2).to receive(:receive_damage).with(5)
       game.poison(player2)
     end
   end

@@ -1,3 +1,5 @@
+<link rel="stylesheet" type="text/css" href="/my_style.css">
+
 <% if @game.other_turn.paralysed? %>
   <h1><%= @game.other_turn.name %> was paralysed.🤐 <%= @game.current_turn.name %>'s turn again!</h1>
 <% else %>

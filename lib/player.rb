@@ -10,11 +10,11 @@ class Player
     @hit_points = hit_points
   end
 
-  def receive_damage
-    @hit_points -= random_hit_points_generator
+  def receive_damage(max_range = 15)
+    @hit_points -= random_hit_points(max_range)
   end
 
-  def random_hit_points_generator(max_range = 15)
+  def random_hit_points(max_range)
     @damage_score = Kernel.rand(0..max_range)
   end
 

@@ -36,7 +36,7 @@ class Game
   end
 
   def poison(player = other_turn)
-    player.random_hit_points_generator(5)
+    player.receive_damage(5)
   end
 
   def switch_turn
