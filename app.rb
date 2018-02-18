@@ -33,7 +33,7 @@ class Battle < Sinatra::Base
 
   post '/attack' do
     @game.attack
-    @game.unparalyse if @game.other_turn.paralysed?
+    @game.thaw
     redirect '/show-attack' unless @game.game_over?
     redirect '/game-over'
   end
@@ -42,13 +42,18 @@ class Battle < Sinatra::Base
     erb :'show-attack'
   end
 
-  post '/paralyse-sleep' do
+  post '/paralyse' do
     @game.paralyse
-    redirect '/paralyse-sleep'
+    redirect '/paralyse'
   end
 
-  get '/paralyse-sleep' do
-    erb :'paralyse-sleep'
+  get '/paralyse' do
+    erb 'paralyse'
+  end
+
+  post 'poison' do
+    @game.poison
+    redirect
   end
 
   get '/switch-turn' do

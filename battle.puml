@@ -8,7 +8,7 @@ class Game {
     +player2()
     +attack(player=)
     +paralyse(player=)
-    +unparalyse(player)
+    +thaw(player)
     +switch_turn()
     +other_turn()
     +opponent_of(the_player)

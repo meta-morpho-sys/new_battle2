@@ -31,7 +31,7 @@ class Game
     player.try_to_paralyse
   end
 
-  def unparalyse(player = other_turn)
+  def thaw(player = other_turn)
     player.paralysed = false
   end
 

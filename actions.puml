@@ -1,0 +1,33 @@
+@startuml
+
+
+class Action {
+    +apply(player)  { @block(player) }
+    +initialise(&block) { @block = &block }
+}
+
+class Heal {
+    +apply(player) { player.HP += @health_level }
+    +initialise(health_level) { @health_level = health_level }
+}
+
+class Attack {
+    +apply(player) { player.receive_damage }
+}
+
+Action <.. Attack
+Action <.. Heal
+
+
+@enduml
+
+attack = Action.new { |player| player.HP -= 20 }
+attack.apply(alan)
+
+heal_gently = Heal.new 2
+heal_powerfully = Heal.new 1000
+
+
+
+
+

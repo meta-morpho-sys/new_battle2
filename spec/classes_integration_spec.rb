@@ -58,7 +58,7 @@ describe 'Game' do
         game.switch_turn
         expect(game.current_turn).to eq alan
         game.attack
-        game.unparalyse if game.other_turn.paralysed?
+        game.thaw
         game.switch_turn
         # now the turn should pass to Yuliya
         expect(game.current_turn).to eq yuliya
