@@ -20,15 +20,25 @@ describe Player do
     end
   end
 
-  describe '#receive damage' do
+  context 'alteration of HPs' do
     before do
       expect(Kernel).to receive(:rand).and_return(28)
     end
 
-    it "reduces player's hit points" do
-      allow(game).to receive(:attack)
-      game.attack(alan)
-      expect { alan.receive_damage }.to change { alan.hit_points }.by(-28)
+    describe '#receive damage' do
+      it "reduces player's hit points" do
+        allow(game).to receive(:attack)
+        game.attack alan
+        expect { alan.receive_damage }.to change { alan.hit_points }.by(-28)
+      end
+    end
+
+    describe '#reduce damage' do
+      it 'increases the HP of the player' do
+        allow(game).to receive(:heal)
+        game.heal alan
+        expect { alan.reduce_damage }.to change { alan.hit_points }.by(28)
+      end
     end
   end
 

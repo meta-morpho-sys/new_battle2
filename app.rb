@@ -42,6 +42,11 @@ class Battle < Sinatra::Base
     erb :show_attack
   end
 
+  post '/heal' do
+    @game.heal
+    redirect '/switch_turn'
+  end
+
   post '/paralyse' do
     @game.paralyse
     redirect '/paralyse'

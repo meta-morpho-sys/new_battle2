@@ -14,9 +14,14 @@ class Player
     @hit_points -= random_hit_points(max_range)
   end
 
+  def reduce_damage(max_range = 15)
+    @hit_points += random_hit_points(max_range)
+  end
+
   def random_hit_points(max_range)
     @damage_score = Kernel.rand(0..max_range)
   end
+
 
   def a_computer?
     @name == 'Computer'

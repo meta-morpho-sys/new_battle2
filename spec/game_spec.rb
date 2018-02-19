@@ -48,6 +48,13 @@ describe Game do
     end
   end
 
+  describe '#heal' do
+    it 'increments the HP of the player' do
+      expect(player1).to receive(:reduce_damage)
+      game.heal(player1)
+    end
+  end
+
   describe '#current_turn' do
     it 'starts as player 1' do
       expect(game.current_turn).to eq player1

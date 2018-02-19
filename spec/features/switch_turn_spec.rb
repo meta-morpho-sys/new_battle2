@@ -1,13 +1,19 @@
-feature 'Switch turns' do
+feature 'Switch turns', js: true do
+  before { sign_in_and_play }
+
   context 'seeing current turn' do
     scenario 'at the start of the game' do
-      sign_in_and_play
       expect(page).to have_content "Yuliya's turn"
     end
 
-    scenario 'after Player 1 attacked', js: true do
-      sign_in_and_play
-      attack_and_confirm
+    scenario 'after Player 1 attacked' do
+      click_button 'Attack'
+      expect(page).not_to have_content "Yuliya's turn"
+      expect(page).to have_content "Alan's turn"
+    end
+
+    scenario 'after Player 1 gets healed' do
+      click_button 'Heal'
       expect(page).not_to have_content "Yuliya's turn"
       expect(page).to have_content "Alan's turn"
     end

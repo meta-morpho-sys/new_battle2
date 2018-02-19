@@ -27,6 +27,10 @@ class Game
     player.receive_damage
   end
 
+  def heal(player = current_turn)
+    player.reduce_damage
+  end
+
   def paralyse(player = other_turn)
     player.try_to_paralyse
   end
