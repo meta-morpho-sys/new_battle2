@@ -8,9 +8,10 @@ class Player
   def initialize(name, initial_hit_points = DEFAULT_HIT_POINTS)
     @name = name
     @hit_points = initial_hit_points
+    @damage_score = 0
   end
 
-  def receive_damage(min, max)
+  def receive_damage(min = 0, max = 15)
     @hit_points -= random_hit_points(min, max)
   end
 

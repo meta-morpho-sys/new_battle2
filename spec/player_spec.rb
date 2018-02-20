@@ -2,7 +2,6 @@ require 'player'
 
 describe Player do
   subject(:alan) { Player.new 'Alan' }
-  subject(:poisoned_player) { double :player, hit_points: 60, damage_score: 4 }
   let(:yuliya) { Player.new 'Yuliya' }
   let(:player2) { Player.new 'Computer' }
   let(:game) { double :game }

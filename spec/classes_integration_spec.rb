@@ -20,7 +20,7 @@ describe 'Game' do
     it 'displays damage scores and total points for the each player' do
       allow(Kernel).to receive(:rand).and_return(9)
       game.attack
-      expect(game.current_turn.damage_score).to eq nil
+      expect(game.current_turn.damage_score).to eq 0
       expect(game.other_turn.damage_score).to eq 9
 
       game.switch_turn

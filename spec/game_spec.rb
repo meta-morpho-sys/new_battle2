@@ -43,7 +43,7 @@ describe Game do
 
   describe '#poison' do
     it 'damages the opponent by few points' do
-      expect(player2).to receive(:receive_damage).with(1..5)
+      expect(player2).to receive(:receive_damage).with(1, 5)
       game.poison(player2)
     end
   end
