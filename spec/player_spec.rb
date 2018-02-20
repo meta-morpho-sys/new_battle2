@@ -2,6 +2,7 @@ require 'player'
 
 describe Player do
   subject(:alan) { Player.new 'Alan' }
+  subject(:poisoned_player) { double :player, hit_points: 60, damage_score: 4 }
   let(:yuliya) { Player.new 'Yuliya' }
   let(:player2) { Player.new 'Computer' }
   let(:game) { double :game }
@@ -21,23 +22,30 @@ describe Player do
   end
 
   context 'alteration of HPs' do
-    before do
-      expect(Kernel).to receive(:rand).and_return(28)
-    end
+    context 'randomness' do
+      before do
+        expect(Kernel).to receive(:rand).and_return(28)
+      end
 
-    describe '#receive damage' do
-      it "reduces player's hit points" do
-        allow(game).to receive(:attack)
-        game.attack alan
-        expect { alan.receive_damage }.to change { alan.hit_points }.by(-28)
+      describe '#receive damage' do
+        it "reduces player's hit points" do
+          expect { alan.receive_damage(1, 15) }
+            .to change { alan.hit_points }.by(-28)
+        end
+      end
+
+      describe '#reduce damage' do
+        it 'increases the HP of the player by a random number' do
+          expect { alan.reduce_damage }.to change { alan.hit_points }.by(28)
+        end
       end
     end
 
-    describe '#reduce damage' do
-      it 'increases the HP of the player' do
-        allow(game).to receive(:heal)
-        game.heal alan
-        expect { alan.reduce_damage }.to change { alan.hit_points }.by(28)
+    describe '#recover_points' do
+      it 'undoes damage' do
+        alan.receive_damage(1, 15)
+        alan.recover_points
+        expect(alan.hit_points).to eq 60
       end
     end
   end

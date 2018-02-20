@@ -11,11 +11,11 @@ feature 'Switch turns', js: true do
       expect(page).not_to have_content "Yuliya's turn"
       expect(page).to have_content "Alan's turn"
     end
+  end
 
-    scenario 'after Player 1 gets healed' do
-      click_button 'Heal'
-      expect(page).not_to have_content "Yuliya's turn"
-      expect(page).to have_content "Alan's turn"
-    end
+  scenario 'after Player 1 gets healed' do
+    click_button 'Heal'
+    expect(page).not_to have_content "Yuliya's turn"
+    expect(page).to have_content "Alan's turn"
   end
 end

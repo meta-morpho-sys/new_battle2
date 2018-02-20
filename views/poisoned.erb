@@ -10,6 +10,9 @@
 <body>
 
   <h1><%= @game.other_turn.name %> got poisoned and may lose <%= @game.other_turn.damage_score %> points.</h1>
+  <h1>But there is hope!</h1>
+  <h1><%= @game.other_turn.name %> can choose to pass the turn and recover the points.</h1>
+
 
 
 </body>
@@ -29,7 +32,7 @@
    }
    var count = 2;
 
-   setTimeout(countDown, page_delay/2);
+   setTimeout(countDown, page_delay);
 
    function nextPage() {
        document.location = "/switch_turn";

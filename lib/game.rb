@@ -40,7 +40,11 @@ class Game
   end
 
   def poison(player = other_turn)
-    player.receive_damage(5)
+    player.receive_damage(1, 5)
+  end
+
+  def recover_from_poison(player = current_turn)
+    player.recover_points
   end
 
   def switch_turn

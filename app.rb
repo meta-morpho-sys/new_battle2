@@ -65,6 +65,11 @@ class Battle < Sinatra::Base
     erb :poisoned
   end
 
+  post '/pass' do
+    @game.recover_from_poison
+    redirect '/switch_turn'
+  end
+
   get '/switch_turn' do
     @game.switch_turn
     if @game.current_turn.a_computer?

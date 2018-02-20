@@ -7,7 +7,7 @@ feature 'Player can make his opponent lose the chance to attack', js: true do
     click_button 'Paralyse'
     expect(page).to have_content "Alan was paralysed.🤐 Yuliya's turn again!"
   end
-#
+
   scenario 'Player 2 manages to paralyse his opponent' do
     sign_in_and_play
     click_button 'Attack'
