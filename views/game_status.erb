@@ -10,15 +10,15 @@
 <body>
 
 <% if @game.player1 && @game.player2 %>
-  <h3>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h3>
+  <h1>Monster <%= @game.player1.name%> Vs Monster <%= @game.player2.name%>!</h1>
 <% end %>
 
 <% if @game.current_turn.damage_score == 0 %>
-  <h1>You missed!!!😝</h1>
+  <h2>You missed!!!😝</h2>
 <% elsif @game.current_turn.damage_score == 5 %>
-  <h1>Huh!!! Mere flesh wound!!!</h1>
+  <h2>Huh!!! Mere flesh wound!!!</h2>
 <% elsif @game.current_turn.damage_score == 7 %>
-  <h1>You can do better than that!!!</h1>
+  <h2>You can do better than that!!!</h2>
 <% end %>
 
 
@@ -49,7 +49,7 @@
   </tr>
 </table>
 
-<!--<div class="center">-->
+<div class="pagination">
   <ul>
     <li>
       <form action="/attack" method="post">
@@ -81,7 +81,7 @@
       </form>
     </li>
   </ul>
-<!--</div>-->
+</div>
 
 </body>
 
