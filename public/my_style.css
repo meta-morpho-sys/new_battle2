@@ -1,9 +1,13 @@
+body {
+    font-family: "Source Code Pro", Monaco, monospace;
+    background: #0086b3;
+}
 .pagination {
     text-align: center;
     margin: auto;
     width: 100%;
     padding: 10px;
-    color: #0086b3;
+    color: darkred;
     font-size: 30px;
 }
 
@@ -13,12 +17,18 @@ form {
     text-align: center;
 }
 
+input::placeholder {
+    color: darkred;
+    font-size: 20px;
+}
+
 input {
     border: 1px solid #242c37;
     border-radius: 999px;
     background-color: transparent;
     text-align: center;
-    font-size: 16px;
+    font-size: 30px;
+    color: white;
 }
 
 

@@ -6,6 +6,8 @@ require './lib/time_delays'
 # App controller class
 class Battle < Sinatra::Base
   set :session_secret, 'here be dragons'
+  # set :bind, '0.0.0.0'
+  # set :port, 4568
   enable :sessions
 
   get '/' do
